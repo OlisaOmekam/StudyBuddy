@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,Webviews.class);
         startActivity(intent);
 
-
     }
+  
     public void openStudentInfo()
     {
         Intent intent = new Intent(this,StudentInfo.class);
