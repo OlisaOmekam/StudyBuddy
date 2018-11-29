@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ReservationApp</string>
+    <string name="student_name">Student: Julia Inks</string>
 
 </resources>

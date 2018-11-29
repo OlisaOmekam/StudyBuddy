@@ -1,53 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudentInfo">
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="41dp"
-        android:text="Student Info "
-        android:textSize="30sp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
-        android:textColor="#33cc33"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="30dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="168dp"
         android:text="Warnings"
         android:textColor="#FF0000"
         android:textSize="24sp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="226dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Student: Julia Inks"
-        android:textStyle="bold"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="90dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
         android:text="Student Info "
         android:textSize="30sp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="30dp" />
 
@@ -55,10 +36,11 @@
         android:id="@+id/button4"
         android:layout_width="48dp"
         android:layout_height="29dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="262dp"
         android:text="edit"
         android:textSize="8sp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="125dp" />
 
@@ -66,9 +48,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone Number:"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="109dp"
+        android:text="Phone Number:"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="125dp" />
 
@@ -76,9 +60,23 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="440-123-3456"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="110dp"
+        android:text="440-123-3456"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="125dp" />
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/student_name"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="40dp" />
+</RelativeLayout>
