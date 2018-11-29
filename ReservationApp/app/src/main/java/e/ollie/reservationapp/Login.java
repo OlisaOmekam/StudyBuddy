@@ -21,11 +21,10 @@ public class Login extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        button = (Button) findViewById(R.id.loginButton);
         musername = (EditText)findViewById(R.id.username);
         mpassword = (EditText)findViewById(R.id.password);
 
+        button = (Button) findViewById(R.id.loginButton);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -39,6 +38,20 @@ public class Login extends AppCompatActivity {
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
                 }
+            }
+        });
+
+
+        button = (Button) findViewById(R.id.registerButton);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Context context = getApplicationContext();
+                CharSequence text = "Account Created, Please log in";
+                int duration = Toast.LENGTH_LONG;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
             }
         });
 
