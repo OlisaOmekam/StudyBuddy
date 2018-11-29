@@ -25,6 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Webviews" />
+        <activity android:name=".Items" />
+        <activity android:name=".StudentInfo"></activity>
     </application>
 
 </manifest>

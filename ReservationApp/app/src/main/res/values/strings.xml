@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ReservationApp</string>
     <string name="title_activity_login">Login</string>
+    <string name="student_name">Student: Julia Inks</string>
+
 
 </resources>
