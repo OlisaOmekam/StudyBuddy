@@ -21,12 +21,13 @@ public class MainActivity extends AppCompatActivity {
                 openWebview();
             }
         });
+
     }
 
     public void openWebview(){
         Intent intent = new Intent(this,Webviews.class);
         startActivity(intent);
 
-
     }
+
 }
